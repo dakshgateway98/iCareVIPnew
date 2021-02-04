@@ -1,0 +1,172 @@
+/*--- Font Size --*/
+.fs-10 {font-size: 10px !important;}
+.fs-12 {font-size: 12px !important;}
+.fs-13 {font-size: 13px !important;}
+.fs-14 {font-size: 14px !important;}
+.fs-16 {font-size: 16px !important;}
+.fs-18 {font-size: 18px !important;}
+.fs-20 {font-size: 20px !important;}
+.fs-24 {font-size: 24px !important;}
+.fs-28 {font-size: 28px !important;}
+.fs-34 {font-size: 34px !important;}
+.fs-38 {font-size: 38px !important;}
+.fs-40 {font-size: 40px !important;}
+.fs-44 {font-size: 44px !important;}
+.fs-48 {font-size: 48px !important;}
+.fs-54 {font-size: 54px !important;}
+small { font-weight: inherit !important;}
+
+/*-- Font We --*/
+.fw-100 {font-weight: 100 !important;}
+.fw-200 {font-weight: 200 !important;}
+.fw-300 {font-weight: 300 !important;}
+.fw-500 {font-weight: 500 !important;}
+.fw-600 {font-weight: 600 !important;}
+.fw-700 {font-weight: 700 !important;}
+.fw-800 {font-weight: 800 !important;}
+.fw-900 {font-weight: 900 !important;}
+
+
+/*-- text-color --*/
+.text-sky-blue {color: #49A2E1 !important;}
+.text-sky-bluedd {color: #24ABDD !important;}
+.text-accent {color: #1A597B !important;}
+.text-green {color: #4EC78F !important;}
+.text-dark-green {color: #27B9A5 !important;}
+.text-muted {color: #9BA4B2 !important;}
+
+.text-primary {color: #fe696a !important;}
+.text-body {color: #212529!important;}
+.text-heading {color: #373f50 !important;}
+
+.text-nowrap {white-space: nowrap !important;}
+.opacity-50 {opacity: .5 !important;}
+
+/*-- Background Color --*/
+.bg-sky-bluegradient {background: transparent linear-gradient(180deg, #50AAE9 0%, #2073AE 100%) !important;}
+.bg-accentgradient {background: transparent linear-gradient(180deg, #0F4E70 0%, #4584A6 100%) !important;}
+.bg-greengradient {background: transparent linear-gradient(180deg, #58CB96 0%, #1EB56F 100%) !important;}
+.bg-dark-greengradient {background: transparent linear-gradient(180deg, #2DE2C5 0%, #2FBCC0 100%) !important;}
+
+.bg-darker {
+    background-color: #2b3445 !important;
+}
+.bg-secondary {
+    background-color: #f6f9fc !important;
+}
+
+
+/*-- border radius --*/
+.border-gray-7 { border-color: #7070707c !important;}
+.border-gray { border-color: #EFEFEF !important;}
+
+.rounded-15 { border-radius: 15px;}
+.rounded-20 { border-radius: 20px;}
+/*-- box shadow --*/
+.box-shadow-none {box-shadow: none !important;}
+.box-shadow-1x {box-shadow: 0px 5px 10px #2424241A;}
+.box-shadow-2x {box-shadow: 0px 3px 27px #475AA529;}
+.box-shadow-3x {box-shadow: 0px 15px 35px #D1DDE6B8;}
+
+/** Margin css **/
+.line-h-12 {line-height: 12px;}
+/*-- Height and Width --*/
+.z-index-0 { z-index: 0;}
+.z-index-1 { z-index: 1;}
+.z-index-2 { z-index: 2;}
+
+.list-style-none {list-style: none;}
+/*-- btn css --*/
+.btn-outline-secondary {
+    border-color: #dae1e7;
+    color: #4b566b !important;
+}
+.btn-outline-secondary:hover {
+    background-color: #f3f5f9;
+    color: #4b566b !important;
+    border-color: #f3f5f9;
+}
+.btn>i {
+    margin-top: -.1875rem;
+    vertical-align: middle;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #fe696a;
+    border-color: #fe696a;
+    box-shadow: none;
+}
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #fe4344 !important;
+    border-color: #fe3638 !important;
+}
+.btn-shadow:hover {
+    box-shadow: none;
+}
+.btn-outline-accent {
+    border-color: rgba(78,84,200,0.35);
+}
+.btn-outline-accent {
+    color: #4e54c8;
+    border-color: #4e54c8;
+}
+.btn-outline-accent:hover {
+    color: #fff;
+    background-color: #4e54c8;
+    border-color: #4e54c8;
+}
+.btn-group-sm>.btn, .btn-sm {
+    font-size: .8125rem;
+    padding: .425rem 1rem;
+}
+.btn-secondary {
+    color: #2b3445;
+    background-color: #f3f5f9;
+    border-color: #f3f5f9;
+    box-shadow: none;
+}
+.btn-secondary:hover {
+    color: #2b3445;
+    background-color: #dae0ec;
+    border-color: #d1d9e8;
+}
+.btn {
+    padding: .625rem 1.375rem;
+}
+.form-text {
+    padding-top: .125rem;
+    font-size: .75rem;
+}
+textarea.form-control {
+    height: auto;
+}
+/*-- Spacing css --*/
+.mx-n5 {
+    margin-left: -35px !important;
+    margin-right: -35px !important;
+}
+.mt-n1, .my-n1 {
+    margin-top: -.25rem !important;
+}
+.border-top {
+    border-top: 1px solid #F3F3F3;
+}
+@media (min-width:576px) {
+    .border-sm-left {
+        border-left: 1px solid #F3F3F3;
+    }
+    .border-top-sm-0 {
+        border-top: none !important;
+    }
+}
+.mt-n1 {
+    margin-top: -0.5rem;
+}
+@media (min-width:576px) {
+    .ms-n3 {margin-left: -1rem;}
+}

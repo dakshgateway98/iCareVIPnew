@@ -1,0 +1,219 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #2B2B2B;
+  font-weight: normal;
+  font-family: 'Barlow', sans-serif;
+  background:#ECF4F6;
+}
+a { color: #1A597B; text-decoration: none; background-color: transparent;}
+a:hover { color: #24ABDD; text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: .75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #115173;
+}
+
+.dashboard-full {
+  display: flex;
+  width: 100%;
+}
+/*-- Sidebar nav --*/
+.feft-sidebar {
+  background: #115173;
+  border-radius: 0px 30px 30px 0px;
+  max-width: 142px;
+  min-width: 142px;
+  width: 100%;
+  padding: 38px;
+  min-height: 100vh;
+  max-height: 100%;
+}
+.sidebar-menu {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 66px;
+}
+.sidebar-menu .nav-item {
+  margin-top: 15px;
+}
+.sidebar-menu .nav-item:first-child {
+  padding-bottom: 20px;
+}
+.sidebar-menu .nav-item:first-child .nav-link, .sidebar-menu .nav-item:first-child .nav-link:hover {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 66px;
+  width: 66px;
+}
+.sidebar-menu .nav-item .nav-link {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 66px;
+  width: 66px;
+}
+.sidebar-menu .nav-item .nav-link svg path {
+  fill: #ffffff;
+}
+.sidebar-menu .nav-item .nav-link:hover, .sidebar-menu .nav-item.active .nav-link {
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 66px;
+  width: 66px;
+}
+.sidebar-menu .nav-item .nav-link:hover svg path, .sidebar-menu .nav-item .nav-link:hover svg circle, .sidebar-menu .nav-item.active .nav-link svg path, .sidebar-menu .nav-item.active .nav-link svg circle {
+  fill: #02aed2 !important;
+}
+
+/*-- Content Wrapper --*/
+.content-wrapper {
+  padding: 30px;
+  width: 100%;
+}
+.input-group-overlay {
+  position: relative;
+  max-width: 530px;
+}
+.input-group-overlay .appended-form-control {
+  background: #EAEAEA;
+  border-color: #EAEAEA;
+  padding: 18px 18px 18px 65px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  height: auto;
+  color: #1A597B;
+}
+.input-group-overlay .appended-form-control::-webkit-input-placeholder {color: #585858; opacity: 0.59;}
+.input-group-overlay .appended-form-control:-ms-input-placeholder {color: #585858; opacity: 0.59;}
+.input-group-overlay .appended-form-control::placeholder {color: #585858; opacity: 0.59;}
+.input-group-append-overlay {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+.input-group-append-overlay span {
+  background: transparent;
+  border: transparent;
+  padding: 0px;
+}
+.input-group-append-overlay span img {
+  width: 26px;
+  height: 26px;
+}
+
+.top-profile .nav-item {
+  padding: 0px 16px;
+}
+.top-profile .nav-item .nav-link {
+  padding: 0px;
+}
+.top-profile .nav-item .nav-link.notifiction {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+.top-profile .nav-item.profile-condition {
+  padding-right: 25px;
+}
+.profile-condition .profile-pic {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 100%;
+}
+.profile-condition .profile-pic img {
+  width: 100%;
+}
+.profile-condition .profile-name {
+  font-size: 26px;
+  font-weight: 600;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.profile-condition .profile-name::after {
+  background: url(../images/haeder/dropdown-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 12px;
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 60%;
+  right: -18px;
+  transform: translate(0, -55%);
+}
+.profile-condition .dropdown-toggle::after {
+  display: none;
+}
+
+
+
+.filament-box {
+  padding: 40px 35px;
+  border-radius: 20px;
+}
+.filament-bg-default {
+  min-width: 124px;
+  width: 124px;
+  height: 124px;
+}
+.filament-content h2 {
+  font-size: 54px;
+}
+.filament-content p {
+  font-size: 26px;
+}
+.more-btn {
+  background: transparent;
+  border: transparent;
+  padding: 0px !important;
+}
+.more-btn:hover, .more-btn:hover {
+  background: transparent;
+  border: transparent;
+}
+.title {
+  font-size: 30px;
+}
+
+
+
+.bg-patient-list {
+  border-radius: 15px;
+  padding: 17px 15px;
+}
+.bg-patient-list .patient-pic {
+  height: 57x;
+  width: 57px;
+  min-width: 57px;
+  border-radius: 90px;
+}
+.bg-patient-list .patient-pic img {
+  width: 100%;
+  object-fit: cover;
+}
+.patient-content {padding-left: 20px;}
+.patient-content h3 {
+  font-size: 23px;
+}
+.patient-content .patient-id, .patient-content .patient-date, .patient-content .patient-times {
+  font-size: 18px;
+}
+.patient-content .patient-times { padding-left: 20px;}
+
+.earning-section {
+  border-radius: 20px;
+}
